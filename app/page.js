@@ -1,5 +1,11 @@
 import Image from "next/image";
+import { BackgroundGradientAnimationDemo } from "@/components/background";
 
 export default function Home() {
-  return <h1>HOME PAGE UNDER CONSTRUCTION</h1>;
+  return (
+    <>
+      <BackgroundGradientAnimationDemo />
+      {/* <h1> Coming soon</h1> */}
+    </>
+  );
 }
