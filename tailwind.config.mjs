@@ -14,6 +14,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        sm370: "370px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
