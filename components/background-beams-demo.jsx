@@ -13,17 +13,20 @@ export function BackgroundBeamsDemo() {
           </h1>
         </div>
 
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
+        <div className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 flex flex-col items-center justify-center">
           TradeBin is a smart platform for buying, selling, and exchanging
           second-hand goods, along with lost-and-found services tailored for
           hostel-based college students. With an eco-friendly delivery system,
           we make transactions seamless, affordable, and sustainable, while
           fostering a connected campus community.
-        </p>
-
-        <div className="absolute z-20  pt-5 max-w-2xl lg:w-[512] md:w-[512] ">
-          <AnimatedTooltipPreview />
+          <div className="z-20 pt-5">
+            <AnimatedTooltipPreview />
+          </div>
         </div>
+
+        {/* <div className="absolute z-20  pt-5 max-w-2xl lg:w-[512] md:w-[512] ">
+          <AnimatedTooltipPreview />
+        </div> */}
       </div>
       <BackgroundBeams />
     </div>
