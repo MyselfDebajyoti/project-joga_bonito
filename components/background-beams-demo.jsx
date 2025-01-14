@@ -21,7 +21,7 @@ export function BackgroundBeamsDemo() {
           fostering a connected campus community.
         </p>
 
-        <div className="absolute z-20  pt-5 max-w-2xl lg:w-[512] md:w-[512]  [@media(max-width:375px)]:w-343 ">
+        <div className="absolute z-20  pt-5 max-w-2xl lg:w-[512] md:w-[512] ">
           <AnimatedTooltipPreview />
         </div>
       </div>
