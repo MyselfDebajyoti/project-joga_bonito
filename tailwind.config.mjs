@@ -14,6 +14,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        italic: ["EditorialNew"],
+        helvetica: ["Helvetica"],
+      },
       screens: {
         sm370: "370px",
       },
