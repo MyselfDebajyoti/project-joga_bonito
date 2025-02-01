@@ -18,7 +18,7 @@ export function BackgroundBeamsDemo() {
           second-hand goods, along with lost-and-found services tailored for
           hostel-based college students. With an eco-friendly delivery system,
           we make transactions seamless, affordable, and sustainable, while
-          fostering a connected campus community.
+          fostering a connected campus community in NITR.
           <div className="z-20 pt-5">
             <AnimatedTooltipPreview />
           </div>
